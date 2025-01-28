@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-red: hsl(0, 100%, 74%);
+    --primary-green: hsl(154, 59%, 51%);
+    --primary-white: hsl(0, 0%, 95%);
+    --bg-blue: hsl(248, 32%, 49%);
+    --bg-dark-blue: hsl(249, 10%, 26%);
+    --bg-gray-blue: hsl(246, 25%, 77%);
+    font-family: 'Poppins';
+}
+
+body {
+    background: url('/images/bg-intro-mobile.png') var(--primary-red);
+    color: var(--primary-white);
+    font-size: 16px;
+    text-align: center;
+}
+
+main {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+h1, p {
+    margin: 1.2rem 0;
+}
+
+p#trial {
+    margin-top: 4rem;
+    padding: 1.2rem;
+    border-radius: 0.75rem;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0 0.5rem 0 0 rgba(0,0,0,0.2);
+}
+
+form {
+    width: 100%;
+    padding: 2rem;
+    background: var(--primary-white);
+    border-radius: 0.7rem;
+    box-shadow: 0 0.5rem 0 0 rgba(0,0,0,0.2);
+}
+
+form input {
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 700;
+    background-color: var(--primary-white);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--bg-gray-blue);
+}
+
+form input::placeholder {
+    font-weight: bold;
+}
+
+form button {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--primary-white);
+    background-color: var(--primary-green);
+    box-shadow: 0 0.5rem 0 0 hsl(154, 59%, 45%);
+}
+
+#terms {
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    color: var(--bg-gray-blue)
+}
+
+#terms strong {
+    font-weight: bold;
+    color: var(--primary-red);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
